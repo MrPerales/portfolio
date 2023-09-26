@@ -4,6 +4,7 @@ import Navbar from "./components/navbar/Navbar";
 import HomePage from "./pages/HomePage";
 import ContactPage from "./pages/ContactPage";
 import ProjectsPage from "./pages/ProjectsPage";
+import { NotFoundPage } from "./pages/NotFoundPage";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           <Route path="/contact" element={<ContactPage />}></Route>
           <Route path="/projects" element={<ProjectsPage />}></Route>
 
-          <Route path="/*" element={<></>}></Route>
+          <Route path="/*" element={<NotFoundPage />}></Route>
         </Routes>
       </HashRouter>
     </>
