@@ -45,8 +45,3 @@ routes.push({
   text: "projects",
   private: true,
 });
-routes.push({
-  to: "/contact",
-  text: "contact",
-  private: true,
-});
