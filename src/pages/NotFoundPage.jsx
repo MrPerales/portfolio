@@ -19,7 +19,7 @@ function NotFoundPage() {
         <figure>
           <img
             src="https://www.travelappeal.com/hubfs/trials/images/broken-robot.png"
-            className=""
+            className="notfoundImg"
           />
         </figure>
       </div>

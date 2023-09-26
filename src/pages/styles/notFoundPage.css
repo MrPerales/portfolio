@@ -59,14 +59,15 @@
     color: #FFF;
     border:none;   
 }
-figure{
+/* figure{
    height: auto;
-}
-figure img{
+} */
+.notfoundImg{
     width: 100%;
+    height: auto;
 }
 @media (max-width:800px){
-    figure{
+    .notfoundImg{
         display: none;
     }
 }
