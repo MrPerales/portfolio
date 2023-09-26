@@ -1,9 +1,9 @@
 import "./App.css";
 import { HashRouter, Route, Routes } from "react-router-dom";
-import Navbar from "./components/navbar/Navbar";
-import HomePage from "./pages/HomePage";
-import ProjectsPage from "./pages/ProjectsPage";
-import { NotFoundPage } from "./pages/NotFoundPage";
+import Navbar from "./components/navbar/Navbar.jsx";
+import HomePage from "./pages/HomePage.jsx";
+import ProjectsPage from "./pages/ProjectsPage.jsx";
+import { NotFoundPage } from "./pages/NotFoundPage.jsx";
 
 function App() {
   return (
