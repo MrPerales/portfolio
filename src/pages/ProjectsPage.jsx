@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Card from "../components/Card/Card";
-import { getData } from "../api/getData";
+import { getData } from "../api/getData.js";
 import "./styles/projectPage.css";
 
 export default function ProjectsPage() {
