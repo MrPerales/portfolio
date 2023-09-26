@@ -1,0 +1,25 @@
+.navbar-container{
+    /* outline: 1px solid red; */
+    background-color: rgba(0,0,0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-left{
+    width: 80px;
+    padding-left: 15px;
+    /* height: 100%; */
+}
+.navbar-left img{
+    width: 100%;
+}
+.navbar-right{
+    padding-right: 15px;
+    /* margin-right: 10px; */
+}
+.menu{
+    display: flex;
+    gap: 50px;
+    list-style: none;    
+    text-transform: capitalize;
+}

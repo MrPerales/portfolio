@@ -1,15 +1,28 @@
-import { useState } from 'react'
-import './App.css'
+import "./App.css";
+import { HashRouter, Route, Routes } from "react-router-dom";
+import Navbar from "./components/navbar/Navbar";
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage";
+import ProjectsPage from "./pages/ProjectsPage";
 
 function App() {
-
   return (
     <>
-      <h1>Hola world
+      <HashRouter>
+        <Navbar />
 
-      </h1>
+        <Routes>
+          <Route path="/" element={<HomePage />}></Route>
+          <Route path="/about" element={<AboutPage />}></Route>
+          <Route path="/contact" element={<ContactPage />}></Route>
+          <Route path="/projects" element={<ProjectsPage />}></Route>
+
+          <Route path="/*" element={<></>}></Route>
+        </Routes>
+      </HashRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
