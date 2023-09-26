@@ -9,7 +9,7 @@ export default function Navbar() {
         <div className="navbar-left">
           <img
             src="https://cdn-icons-png.flaticon.com/512/63/63966.png"
-            alt=""
+            alt="logo"
           />
         </div>
         <div className="navbar-right">
@@ -17,6 +17,7 @@ export default function Navbar() {
             {routes.map((route) => (
               <li key={route.text}>
                 <NavLink
+                  className="link"
                   style={({ isActive }) => ({
                     color: isActive ? "#175AAD" : "#465D7A",
                   })}
@@ -38,11 +39,7 @@ routes.push({
   text: "home",
   private: true,
 });
-routes.push({
-  to: "/about",
-  text: "about",
-  private: true,
-});
+
 routes.push({
   to: "/projects",
   text: "projects",
