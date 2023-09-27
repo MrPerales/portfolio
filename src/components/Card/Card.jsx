@@ -8,7 +8,7 @@ export default function Card({ data }) {
       <section className="card-container">
         <figure className="folder">
           <img
-            src="/src/assets/folderblackgithub.png"
+            src="https://cdn.icon-icons.com/icons2/1379/PNG/512/folderblackgithub_93133.png"
             alt="folderBlackGitHub"
           />
         </figure>
