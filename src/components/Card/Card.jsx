@@ -5,7 +5,7 @@ export default function Card({ data }) {
   const { name, url, description } = data;
   return (
     <>
-      <section className="card-container">
+      <section className="card-container ">
         <figure className="folder">
           <img
             src="https://cdn.icon-icons.com/icons2/1379/PNG/512/folderblackgithub_93133.png"

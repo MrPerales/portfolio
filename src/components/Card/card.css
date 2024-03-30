@@ -1,69 +1,69 @@
-.card-container{
-    width: 250px;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    /*  */
-    color: #fff;
-    border: 2px solid transparent;
-    background: linear-gradient(71deg, #080509, #1a171c, #080509);
-    border-radius: 15px;
-    background-clip: padding-box;
-    position: relative;
-    /* outline: 1px solid red; */
-    gap: 0px;
-    margin-left:5px ;
+.card-container {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  /*  */
+  color: #fff;
+  border: 2px solid transparent;
+  background: linear-gradient(71deg, #080509, #1a171c, #080509);
+  border-radius: 15px;
+  background-clip: padding-box;
+  position: relative;
+  /* outline: 1px solid red; */
+  gap: 0px;
+  margin-left: 5px;
 }
-.card-container::after{
-    position: absolute;
-    top: -1px;
-    bottom: -1px;
-    left: -1px;
-    right: -1px;
-    content: "";
-    z-index: -1;
-    border-radius: 15px;
-    background: linear-gradient(71deg, #0c0a0e, #5f6fad, #0c0a0e);
+.card-container::after {
+  position: absolute;
+  top: -1px;
+  bottom: -1px;
+  left: -1px;
+  right: -1px;
+  content: "";
+  z-index: -1;
+  border-radius: 15px;
+  background: linear-gradient(71deg, #0c0a0e, #5f6fad, #0c0a0e);
 }
-.folder{
-    width: 100px;
+.folder {
+  width: 100px;
 }
-.folder img{
-    width: 100%;
+.folder img {
+  width: 100%;
 }
-.information{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    text-transform: capitalize;
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: capitalize;
 }
-.title-project{
-    font-size: 14px;
-    font-family: 'Mulish', sans-serif;
-    font-weight: bold;
+.title-project {
+  font-size: 14px;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
 }
-.description-project{
-    font-family: 'Space Mono', monospace;
-    font-size: 12px;
+.description-project {
+  font-family: "Space Mono", monospace;
+  font-size: 12px;
 }
 .information a {
-   margin-top: 10px;
+  margin-top: 10px;
 }
 
-.goTo{
-    border: 2px solid transparent;
-    color: #fff;
-    border-radius: 7px;
-    padding: 3px;
-    text-decoration: none;
-    position: relative;
-    /* background: #000; */
+.goTo {
+  border: 2px solid transparent;
+  color: #fff;
+  border-radius: 7px;
+  padding: 3px;
+  text-decoration: none;
+  position: relative;
+  /* background: #000; */
 }
-.goTo:hover{
-    color: #5f6fad;
-    /* background: */
+.goTo:hover {
+  color: #5f6fad;
+  /* background: */
 }
