@@ -8,11 +8,11 @@ import TypeScriptIcon from "../Icons/TypeScriptIcon";
 
 export default function Skills() {
   return (
-    <section className="w-full   bg-gray-600 sm:bg-gray-700">
+    <section className="w-full h-36  bg-gray-600 sm:bg-gray-700">
       <div className="flex justify-center">
         <div className="bg-gray-900 h-1 w-3/4 "></div>
       </div>
-      <div className="flex justify-center flex-wrap items-center object-cover mt-5 sm:mt-10 space-x-5 sm:space-x-20">
+      <div className="flex justify-center flex-wrap items-center object-cover mt-8 sm:mt-10 space-x-5 sm:space-x-20">
         <div className="w-10 h-10 sm:w-14 sm:h-14  opacity-50 hover:opacity-100">
           <JavaScriptIcon />
         </div>
