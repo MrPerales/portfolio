@@ -5,7 +5,6 @@ export const AngularScreenFakeStore = [
 ];
 export const AngularScreenTrello = [
   "src/assets/screenApps/Angular/trello/trelloLogin.jpg",
-  "src/assets/screenApps/Angular/trello/trelloLoginMobile.jpg",
   "src/assets/screenApps/Angular/trello/trelloRegister.jpg",
   "src/assets/screenApps/Angular/trello/trelloBoards.jpg",
   "src/assets/screenApps/Angular/trello/trelloBoard.jpg",
@@ -23,7 +22,7 @@ export const ReactScreenTodo = [
 export const NativcScreenGame = [
   "src/assets/screenApps/React Native/MemoryGame/home.jpg",
   "src/assets/screenApps/React Native/MemoryGame/game.jpg",
-  "src/assets/screenApps/React Native/MemoryGame/game1.jpg",
+  "src/assets/screenApps/React Native/MemoryGame/game.jpg",
   "src/assets/screenApps/React Native/MemoryGame/score.jpg",
 ];
 export const NativeScreenPokeDex = [
