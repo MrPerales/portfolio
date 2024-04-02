@@ -7,8 +7,10 @@ export default function Slider({ screens, desktop }) {
   const arrayLength = screens.length;
   const styleDesktop = "w-full";
   const styleMobile = "sm:w-44 w-20  ";
-  const styleDesktopArrow = "w-48 sm:w-48 opacity-50 hover:opacity-100";
-  const styleMobileArrow = "sm:w-14  w-6 h-10 opacity-50 hover:opacity-100";
+  const styleDesktopArrow =
+    "w-48 sm:w-48 opacity-50 hover:opacity-100 cursor-pointer";
+  const styleMobileArrow =
+    "sm:w-14  w-6 h-10 opacity-50 hover:opacity-100 cursor-pointer";
   const stylesImg = desktop ? styleDesktop : styleMobile;
   const stylesArrows = desktop ? styleDesktopArrow : styleMobileArrow;
 
