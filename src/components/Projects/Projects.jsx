@@ -27,9 +27,11 @@ export default function Projects() {
                 </h2>
                 <p className=" text-white mt-6">{project.description}</p>
                 <div className=" w-full flex mt-6">
-                  <button className="w-36 py-2 px-5 bg-sky-400 hover:bg-sky-800 font-medium rounded text-sm ">
-                    Repository
-                  </button>
+                  <a href={project.repository}>
+                    <button className="w-36 py-2 px-5 bg-sky-400 hover:bg-sky-800 font-medium rounded text-sm ">
+                      Repository
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>

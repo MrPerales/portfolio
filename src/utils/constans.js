@@ -57,6 +57,7 @@ export const projects = [
       "src/assets/screenApps/Angular/FakeStore/ProductDetail.jpg",
       "src/assets/screenApps/Angular/FakeStore/storeCar.jpg",
     ],
+    repository: "https://github.com/MrPerales/storeAngular",
     rowReverse: false,
   },
   {
@@ -85,6 +86,7 @@ export const projects = [
       "src/assets/screenApps/Angular/trello/trelloBoards.jpg",
       "src/assets/screenApps/Angular/trello/trelloBoard.jpg",
     ],
+    repository: "https://github.com/MrPerales/trelloClone",
     rowReverse: false,
   },
   {
@@ -108,6 +110,7 @@ export const projects = [
       "src/assets/screenApps/React/movieApp/movieDetail.jpg",
       "src/assets/screenApps/React/movieApp/categories.jpg",
     ],
+    repository: "https://github.com/MrPerales/Movie-App",
     rowReverse: true,
   },
   {
@@ -131,6 +134,7 @@ export const projects = [
       "src/assets/screenApps/React/todoApp/todoAppAddTask.jpg",
       "src/assets/screenApps/React/todoApp/editTask.jpg",
     ],
+    repository: "https://github.com/MrPerales/My-task-App-",
     rowReverse: true,
   },
   {
@@ -155,6 +159,7 @@ export const projects = [
       "src/assets/screenApps/React Native/Pokedex/favorites.jpg",
       "src/assets/screenApps/React Native/Pokedex/account.jpg",
     ],
+    repository: "https://github.com/MrPerales/PokeDex",
     rowReverse: false,
   },
   {
@@ -179,6 +184,7 @@ export const projects = [
       "src/assets/screenApps/React Native/MemoryGame/game.jpg",
       "src/assets/screenApps/React Native/MemoryGame/score.jpg",
     ],
+    repository: "https://github.com/MrPerales/memoryGame",
     rowReverse: false,
   },
 ];
