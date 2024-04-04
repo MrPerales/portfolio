@@ -4,7 +4,10 @@ import { projects } from "../../utils/constans";
 import Slider from "../slider/Slider";
 export default function Projects() {
   return (
-    <section className=" w-full  bg-gray-600 sm:bg-gray-700 flex sm:flex-col flex-wrap  sm:justify-center">
+    <section
+      id="projectSection"
+      className=" w-full  bg-gray-600 sm:bg-gray-700 flex sm:flex-col flex-wrap  sm:justify-center"
+    >
       {projects.map((project) => {
         const StyleRowReverse = project.rowReverse
           ? "sm:flex-row-reverse"

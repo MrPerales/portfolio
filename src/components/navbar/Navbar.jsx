@@ -1,8 +1,10 @@
 import React from "react";
 import "./navbar.css";
-import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
+  const projectsSection = () => {
+    document.getElementById("projectSection").scrollIntoView();
+  };
   return (
     <header>
       <nav className="flex justify-between items-center w-full fixed bg-gray-50/[.1]">
@@ -14,29 +16,16 @@ export default function Navbar() {
           />
         </div>
         <div className="mx-9">
-          <ul className="flex gap-5 sm:gap-14 list-none capitalize">
-            {routes.map((route) => (
-              <li key={route.text}>
-                <NavLink className="text-white hover:underline" to={route.to}>
-                  {route.text}
-                </NavLink>
-              </li>
-            ))}
+          <ul className="flex gap-5 sm:gap-14 list-none capitalize ">
+            <li className="cursor-pointer">
+              <a href="">Home</a>
+            </li>
+            <li className="cursor-pointer">
+              <a onClick={projectsSection}>Projects</a>
+            </li>
           </ul>
         </div>
       </nav>
     </header>
   );
 }
-const routes = [];
-routes.push({
-  to: "/",
-  text: "home",
-  private: true,
-});
-
-routes.push({
-  to: "/projects",
-  text: "projects",
-  private: true,
-});
