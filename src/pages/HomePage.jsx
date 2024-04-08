@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/header/Header";
 import Skills from "../components/skills/Skills";
 import Projects from "../components/Projects/Projects";
+import Footer from "../components/Footer/Footer";
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
         <h2 className="font-bold text-white text-xl sm:text-4xl">Projects</h2>
       </div>
       <Projects></Projects>
+      <Footer />
     </main>
   );
 }

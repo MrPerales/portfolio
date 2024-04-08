@@ -19,13 +19,20 @@ export default function Header() {
         </div>
         <div className="flex flex-col justify-center text-gray-50 items-center  gap-2 md:space-x-2  md:flex-row">
           <div className="flex flex-col gap-2 items-center">
-            <BsGithub />
-            <a href="https://github.com/MrPerales">GitHub</a>
+            <BsGithub className="w-6 h-6" />
+            <a className="hover:underline" href="https://github.com/MrPerales">
+              GitHub
+            </a>
           </div>
           <span class="text-gray-500 hidden md:block">•</span>
           <div className="flex flex-col gap-2 items-center">
-            <BsLinkedin />
-            <a href="https://www.linkedin.com/in/cperalescabrera">Linkedin</a>
+            <BsLinkedin className="w-6 h-6" />
+            <a
+              className="hover:underline"
+              href="https://www.linkedin.com/in/cperalescabrera"
+            >
+              Linkedin
+            </a>
           </div>
         </div>
       </div>

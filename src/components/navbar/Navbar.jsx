@@ -18,10 +18,14 @@ export default function Navbar() {
         <div className="mx-9">
           <ul className="flex gap-5 sm:gap-14 list-none capitalize ">
             <li className="cursor-pointer">
-              <a href="">Home</a>
+              <a className="hover:underline" href="">
+                Home
+              </a>
             </li>
             <li className="cursor-pointer">
-              <a onClick={projectsSection}>Projects</a>
+              <a className="hover:underline" onClick={projectsSection}>
+                Projects
+              </a>
             </li>
           </ul>
         </div>
