@@ -1,4 +1,3 @@
-import React from "react";
 import { projects } from "../../utils/constans";
 
 import Slider from "../slider/Slider";
@@ -15,13 +14,18 @@ export default function Projects() {
 
         return (
           <article
+            key={project.id}
             className={
               "w-1/2  sm:w-full h-60 sm:h-full flex flex-col items-center justify-center mb-10 " +
               StyleRowReverse
             }
           >
             <div className="sm:w-1/4 w-40 ">
-              <Slider screens={project.screens} desktop={project.desktop} />
+              <Slider
+                screens={project.screens}
+                desktop={project.desktop}
+                alt={project.alt}
+              />
             </div>
             <div className="sm:w-2/4 w-96  hidden sm:block ">
               <div className="w-3/4 flex justify-center items-start flex-col ml-16 ">
@@ -40,7 +44,7 @@ export default function Projects() {
             </div>
             <div className="sm:hidden flex flex-col text-white font-bold py-2">
               {project.technologies.map((technology) => (
-                <span>{technology.name} </span>
+                <span key={project.id}>{technology.name}</span>
               ))}
             </div>
           </article>

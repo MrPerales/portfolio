@@ -2,7 +2,7 @@ import { useState } from "react";
 import ArrowLeft from "../Icons/ArroyLeft";
 import ArrowRight from "../Icons/ArroyRight";
 
-export default function Slider({ screens, desktop }) {
+export default function Slider({ screens, desktop, alt }) {
   const [actualPosition, setAcutalPosition] = useState(0);
   const arrayLength = screens.length;
   const styleDesktop = "w-full";
@@ -38,7 +38,7 @@ export default function Slider({ screens, desktop }) {
         return (
           actualPosition === index && (
             <div className="object-cover h-auto">
-              <img src={screen} alt={index} className={stylesImg} />
+              <img src={screen} alt={alt} className={stylesImg} />
             </div>
           )
         );
