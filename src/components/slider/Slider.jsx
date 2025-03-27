@@ -5,14 +5,6 @@ import ArrowRight from "../Icons/ArroyRight";
 export default function Slider({ screens, desktop, alt }) {
   const [actualPosition, setAcutalPosition] = useState(0);
   const arrayLength = screens.length;
-  const styleDesktop = "w-full";
-  const styleMobile = "sm:w-44 w-20  ";
-  const styleDesktopArrow =
-    "w-48 sm:w-48 opacity-50 hover:opacity-100 cursor-pointer";
-  const styleMobileArrow =
-    "sm:w-14  w-6 h-10 opacity-50 hover:opacity-100 cursor-pointer";
-  const stylesImg = desktop ? styleDesktop : styleMobile;
-  const stylesArrows = desktop ? styleDesktopArrow : styleMobileArrow;
 
   // return para evitar que nos manden otra cosa que nos ea array
   if (!Array.isArray(screens) || arrayLength === 0) return;
@@ -31,19 +23,25 @@ export default function Slider({ screens, desktop, alt }) {
 
   return (
     <div className="flex items-center">
-      <div onClick={before} className={stylesArrows}>
+      <div
+        onClick={before}
+        className="w-48 sm:w-48 opacity-50 hover:opacity-100 cursor-pointer"
+      >
         <ArrowLeft />
       </div>
       {screens.map((screen, index) => {
         return (
           actualPosition === index && (
             <div className="object-cover h-auto">
-              <img src={screen} alt={alt} className={stylesImg} />
+              <img src={screen} alt={alt} className="w-full" />
             </div>
           )
         );
       })}
-      <div onClick={next} className={stylesArrows}>
+      <div
+        onClick={next}
+        className="w-48 sm:w-48 opacity-50 hover:opacity-100 cursor-pointer"
+      >
         <ArrowRight />
       </div>
     </div>
