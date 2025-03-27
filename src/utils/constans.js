@@ -35,6 +35,7 @@ export const projects = [
   {
     id: 1,
     title: "Fake Store",
+    alt: "Captura de pantalla del proyecto Fake Store en Angular",
     technologies: [
       {
         id: 1,
@@ -53,12 +54,11 @@ export const projects = [
       " A e-commerce where do you can add the product to shopphing car and see their description, developed with angular and tailwindCss for the website design",
     desktop: true,
     screens: [
-      "../../src/assets/screenApps/Angular/FakeStore/FakeStoreHome.jpg",
-      "../../src/assets/screenApps/Angular/FakeStore/ProductDetail.jpg",
-      "../../assets/screenApps/Angular/FakeStore/storeCar.jpg",
-      "/public/screenApps/Angular/FakeStore/FakeStoreHome.jpg",
-      "/public/screenApps/Angular/FakeStore/ProductDetail.jpg",
-      "/public/screenApps/Angular/FakeStore/storeCar.jpg",
+      "/projects/Angular/FakeStore/FakeStoreHome.webp",
+      "/projects/Angular/FakeStore/ProductDetail.webp",
+      "/projects/Angular/FakeStore/storeCar.webp",
+      "/projects/Angular/FakeStore/ProductDetail.webp",
+      "/projects/Angular/FakeStore/storeCar.webp",
     ],
     repository: "https://github.com/MrPerales/storeAngular",
     rowReverse: false,
@@ -66,6 +66,7 @@ export const projects = [
   {
     id: 2,
     title: "Trello Clon",
+    alt: "Captura de pantalla del proyecto Trello Clon en Angular",
     technologies: [
       {
         id: 1,
@@ -84,10 +85,10 @@ export const projects = [
       " Trello clone,developed with Angular Cdk components to imitate the interface and consuming fake-trello-api for user verification and task posting",
     desktop: true,
     screens: [
-      "src/assets/screenApps/Angular/trello/trelloLogin.jpg",
-      "src/assets/screenApps/Angular/trello/trelloRegister.jpg",
-      "src/assets/screenApps/Angular/trello/trelloBoards.jpg",
-      "src/assets/screenApps/Angular/trello/trelloBoard.jpg",
+      "/projects/Angular/trello/trelloLogin.webp",
+      "/projects/Angular/trello/trelloRegister.webp",
+      "/projects/Angular/trello/trelloBoards.webp",
+      "/projects/Angular/trello/trelloBoard.webp",
     ],
     repository: "https://github.com/MrPerales/trelloClone",
     rowReverse: false,
@@ -95,6 +96,7 @@ export const projects = [
   {
     id: 3,
     title: "Movie App",
+    alt: "Captura de pantalla del proyecto Movie App en React",
     technologies: [
       {
         id: 4,
@@ -109,9 +111,9 @@ export const projects = [
       "A movie app developed with react framework,where would you find a lot of movies with their description, rating and other filters, using components and states to share the information got from API",
     desktop: true,
     screens: [
-      "src/assets/screenApps/React/movieApp/movieAppHome.jpg",
-      "src/assets/screenApps/React/movieApp/movieDetail.jpg",
-      "src/assets/screenApps/React/movieApp/categories.jpg",
+      "/projects/React/movieApp/movieAppHome.webp",
+      "/projects/React/movieApp/movieDetail.webp",
+      "/projects/React/movieApp/categories.webp",
     ],
     repository: "https://github.com/MrPerales/Movie-App",
     rowReverse: true,
@@ -119,6 +121,7 @@ export const projects = [
   {
     id: 4,
     title: "Todo App",
+    alt: "Captura de pantalla del proyecto Todo App en React",
     technologies: [
       {
         id: 4,
@@ -133,9 +136,9 @@ export const projects = [
       " A task management app , you can add ,edit and check the task.developed with React framework , using states and hooks to save the all task on local storage",
     desktop: false,
     screens: [
-      "src/assets/screenApps/React/todoApp/todoAppHome.jpg",
-      "src/assets/screenApps/React/todoApp/todoAppAddTask.jpg",
-      "src/assets/screenApps/React/todoApp/editTask.jpg",
+      "/projects/React/todoApp/todoAppHome.webp",
+      "/projects/React/todoApp/todoAppAddTask.webp",
+      "/projects/React/todoApp/editTask.webp",
     ],
     repository: "https://github.com/MrPerales/My-task-App-",
     rowReverse: true,
@@ -143,6 +146,8 @@ export const projects = [
   {
     id: 5,
     title: "Pokedex",
+    alt: "Captura de pantalla del proyecto Pokedex en React Native",
+
     technologies: [
       {
         id: 4,
@@ -157,10 +162,10 @@ export const projects = [
       " A pokedex app , where would you find all pokemons , save your Favorites pokes , and see their stats with a friendly interface ,developed with ReactNative",
     desktop: false,
     screens: [
-      "src/assets/screenApps/React Native/Pokedex/pokedex.jpg",
-      "src/assets/screenApps/React Native/Pokedex/detail.jpg",
-      "src/assets/screenApps/React Native/Pokedex/favorites.jpg",
-      "src/assets/screenApps/React Native/Pokedex/account.jpg",
+      "/projects/React Native/Pokedex/pokedex.webp",
+      "/projects/React Native/Pokedex/detail.webp",
+      "/projects/React Native/Pokedex/favorites.webp",
+      "/projects/React Native/Pokedex/account.webp",
     ],
     repository: "https://github.com/MrPerales/PokeDex",
     rowReverse: false,
@@ -168,6 +173,7 @@ export const projects = [
   {
     id: 6,
     title: "Memory Game",
+    alt: "Captura de pantalla del proyecto Memory Game en React Native",
     technologies: [
       {
         id: 4,
@@ -182,10 +188,10 @@ export const projects = [
       " A memory game , is a classic board game but this is a virtual version developed with React Native where the objective and rulesare same that board game",
     desktop: false,
     screens: [
-      "src/assets/screenApps/React Native/MemoryGame/home.jpg",
-      "src/assets/screenApps/React Native/MemoryGame/game.jpg",
-      "src/assets/screenApps/React Native/MemoryGame/game.jpg",
-      "src/assets/screenApps/React Native/MemoryGame/score.jpg",
+      "/projects/React Native/MemoryGame/home.webp",
+      "/projects/React Native/MemoryGame/game.webp",
+      "/projects/React Native/MemoryGame/game.webp",
+      "/projects/React Native/MemoryGame/score.webp",
     ],
     repository: "https://github.com/MrPerales/memoryGame",
     rowReverse: false,
